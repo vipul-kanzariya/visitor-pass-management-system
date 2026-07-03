@@ -12,6 +12,7 @@ function Pass() {
     setVisitors(data);
   };
   const generatePass = async () => {
+      console.log('selectedVisitor:', selectedVisitor); 
     if (!selectedVisitor) {
       alert("Please select visitor!");
       return;

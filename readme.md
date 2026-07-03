@@ -2,6 +2,21 @@
 
 A full-stack MERN application to digitize visitor management in offices.
 
+##  Screenshots
+
+### Login Page
+![alt text](image-3.png)
+
+### Dashboard
+![alt text](image.png)
+
+### Visitors Page
+![alt text](image-1.png)
+
+### Pass Generation
+![alt text](image-2.png)
+
+
 ##  Demo Data (Seed Script)
 
 Run this command to populate demo data:

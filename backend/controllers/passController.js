@@ -4,7 +4,9 @@ const qrCode = require('qrcode');
 exports.createPass = async(req,res) =>{
     try{
         const {visitorId} = req.body;
+         console.log('visitorId received:', visitorId);
         const visitor = await Visitor.findById(visitorId);
+        console.log('visitor found:', visitor);
         if(!visitor){
             return res.status(400).json('Visitor not found');
         }
