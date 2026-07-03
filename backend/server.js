@@ -16,7 +16,7 @@ dotenv.config();
 
 app.use(express.json());
 app.use(cors({
-    origin: 'http://localhost:5173'  
+    origin: 'https://your-netlify-url.netlify.app'  
 }));
 app.use((req, res, next) => {
   console.log(req.path, req.method);
