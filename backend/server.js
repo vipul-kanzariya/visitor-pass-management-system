@@ -16,7 +16,7 @@ dotenv.config();
 
 app.use(express.json());
 app.use(cors({
-    origin: 'https://visitor-pass-management-system-1cve.onrender.com'
+    origin: 'https://visitor-pass-management-system1.netlify.app'
 }));
 app.use((req, res, next) => {
   console.log(req.path, req.method);
