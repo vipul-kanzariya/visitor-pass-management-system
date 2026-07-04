@@ -2,6 +2,11 @@
 
 A full-stack MERN application to digitize visitor management in offices.
 
+##  Live Demo
+
+- **Frontend:** https://visitor-pass-management-system1.netlify.app
+- **Backend:** https://visitor-pass-management-system-1cve.onrender.com
+
 ## Demo video Link
 https://youtu.be/W0iyvV0wdcg
 
